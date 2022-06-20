@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 180px fr1;
+    grid-template-rows: 200px 1fr 120px;
+    grid-gap: 20px 80px;
+    }
+img {
+    /* In addition to our border-radius utilities,  
+     you can use .img-thumbnail to give an image a rounded 1px border appearance. */
+    border: 1px solid rgb(42, 40, 40); 
+    border-radius: 50px;  
+    padding: 5px; 
+    width: 150px; 
+    box-shadow: 10px 10px;
+    
+  }
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+  .responsive {
+    /* Images in Bootstrap are made responsive with .img-fluid. This applies 
+    max-width: 100%; and height: auto; to the image so that it scales with the parent element */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+
+
+table:hover{
+    opacity: 50%
+}
+
+.btn{
+
+    color: aqua;
+    background-color: blueviolet;
+}
+
+
+
+
+  
+  
