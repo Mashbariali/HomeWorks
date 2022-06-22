@@ -21,7 +21,6 @@ Creating a page where every time the user hits the "Roll Dice" button, the scree
  let secondDie = document.getElementById("second-die")
  let rolldice = document.getElementById("roll-dice")
   rolldice.onclick = function(){diceRoll()}
-
  console.log(firstDie,secondDie)
 
  function diceRoll(){
@@ -41,8 +40,6 @@ for (j=1 ; j<=6 ; j++){
     secondDie.classList.remove('dice-' +j)
     if (random2 === j){
         secondDie.classList.add('dice-' +j)
-
  }
 }
-
  }
